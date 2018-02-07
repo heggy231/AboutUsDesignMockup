@@ -1,0 +1,75 @@
+/* Add Styles Here */
+html, body {
+	background: #663399; /* Beccapurple */
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(107, 107, 132);
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 5%;
+	background: white;
+	line-height: 1.8;
+}
+table {
+	border: 10px solid rgb(255, 255, 255);
+	border-collapse: collapse;
+	margin-top: 1em;
+	background: #eee;
+}
+caption {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(107, 107, 132);
+	text-align: left;
+}
+td {
+  border: 10px solid rgb(255, 255, 255);
+  padding: .5em;
+  text-align: center;
+}
+
+tbody th {
+	background: transparent;
+	text-align: left;
+	color: black;
+	border-bottom: 1px solid black;
+	padding: .5em;
+}
+article {
+  margin: 24px;
+  padding: 25px;
+}
+
+article h2 {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+article h3 {
+  font-size: 1.2em;
+  text-align: right;
+}
+
+article h2 img {
+ position: relative;
+ margin: 5px 20px 20px 0;
+ width: 25%;
+ float: right;
+}
+
+article h3 img {
+  position: relative;
+  margin: 5px 20px 20px 0;
+  width: 25%;
+  float: left;
+}
